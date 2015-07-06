@@ -24,6 +24,7 @@ class Bot
 	  else
 		return "#{array[n]} is not recognized as a command"
 	 end
+	 n += 1
 	end
 	end
 end
