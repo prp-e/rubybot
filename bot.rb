@@ -18,7 +18,7 @@ class Bot
 	end
 	def getcommands(array)
 	 n = 0
-	 while n <= array[n]
+	 while n <= array.length
 	  if array[n].starts_with?"/"
 		return "#{array[n]} is recognized as a command"
 	  else
