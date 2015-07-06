@@ -16,4 +16,13 @@ class Bot
 		return "#{cmd} is not a command"
 	end
 	end
+	def getcommands(array)
+	 n = 0
+	 while n <= array[n]
+	  if array[n].starts_with?"/"
+		return "#{array[n]} is recognized as a command"
+	  else
+		return "#{array[n]} is not recognized as a command"
+	 end
+	end
 end
