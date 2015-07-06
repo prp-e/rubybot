@@ -25,4 +25,5 @@ class Bot
 		return "#{array[n]} is not recognized as a command"
 	 end
 	end
+	end
 end
